@@ -85,6 +85,8 @@ add_action( 'widgets_init', 'eosbr_widgets_init' );
  */
 function eosbr_scripts() {
 	wp_enqueue_style( 'eosbr-style', get_stylesheet_uri() );
+    
+    wp_enqueue_style( 'dead-simple-grid', get_template_directory_uri() . '/css/grid.css' ); /* Carrega o Dead Simple Grid */
 
 	wp_enqueue_script( 'eosbr-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
