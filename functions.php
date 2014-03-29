@@ -88,8 +88,6 @@ function eosbr_scripts() {
    
     wp_enqueue_style( 'grid-row', get_template_directory_uri() . '/css/row.css' ); /* Carrega a classe .row */
     
-    wp_enqueue_style( 'open-sans-font', get_template_directory_uri() . 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700' ); /* Carrega a fonte Open Sans do Google Web Fonts */
-    
 	wp_enqueue_style( 'eosbr-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'eosbr-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
