@@ -130,8 +130,8 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -342,15 +342,15 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #005cff;
 }
 a:visited {
-	color: purple;
+	color: none;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #47a8e9;
 }
 
 .cover{
