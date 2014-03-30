@@ -400,10 +400,15 @@ header{
 .main-navigation li {
 	float: left;
 	position: relative;
+    margin: 0 1em 0 0;
 }
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+    color: grey;
+}
+.current_page_item a {
+    color: #47a8e9;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -435,6 +440,11 @@ header{
 .main-navigation .current_page_item a,
 .main-navigation .current-menu-item a {
 }
+
+.menu {
+    margin: 20px 0 0 0;
+}
+
 /* Small menu */
 .menu-toggle {
 	cursor: pointer;
