@@ -24,10 +24,12 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="row">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'eosbr' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'eosbr' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
