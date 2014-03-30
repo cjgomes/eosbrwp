@@ -12,7 +12,8 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
             <div class="cover"></div>
-            
+
+            <h1 class="home-h1">Um sistema operacional sem incômodos</h1>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
