@@ -391,6 +391,7 @@ header{
 	height: 70px;
 	background-color: #FFF;
 	z-index: 999;
+    box-shadow: 0 0 5px #888;
 }
 .main-navigation ul {
 	list-style: none;
@@ -685,3 +686,18 @@ iframe,
 object {
 	max-width: 100%;
 }
+
+/*--------------------------------------------------------------
+13.0 Custom Page's CSS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+13.1 Home Page
+--------------------------------------------------------------*/
+
+h1.home-h1 {
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    margin: 1em 0;
+}
+
